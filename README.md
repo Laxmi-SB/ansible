@@ -20,3 +20,10 @@ PLAY RECAP *********************************************************************
 51.*******              : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 
 ====================================================================
+
+Roles:
+=====
+ansible-galaxy role init test
+cd test
+ubuntu@ip-172-********:~/test$ ls
+README.md  defaults  files  handlers  meta  tasks  templates  tests  vars
